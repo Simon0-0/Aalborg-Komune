@@ -69,6 +69,82 @@ li a{
 
 /* main */
 
+/* weather */
+.weather{
+    display: flex;
+}
+.weather, .weather-l, .weather-r{
+    height: 366px;
+}
+
+.arrow-r{
+    width: 24px;
+    position: relative;
+    background-color: #FFE981;
+}
+
+.arrow-l{
+    width: 24px;
+    position: relative;
+    background-color: #FFE981;
+    transform: rotate(180deg);
+}
+
+.weather-l{
+    background-color: #FFE981;
+    width: calc(50vw - 48px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-h1{
+    font-size: 20px;
+    color: #224430;
+}
+
+.weather-h2{
+    font-size: 30px;
+    margin-top: 11px;
+}
+
+.weather-h3{
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.weather-r{
+    background-color: #567061;
+    width: 50vw;
+    display: flex;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 146px;
+    height: 290px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-h5, .weather-h6{
+    padding-right: 28px;
+}
+
+.icon{
+    width: 42px;
+    height: 42px;
+}
+
+.sunicon{
+    width: 106px;
+    height: 103px;
+    fill: #567061;
+    margin: 28px 0 23px 0;
+}
 /* footer */
 footer{
     height: 380px;
