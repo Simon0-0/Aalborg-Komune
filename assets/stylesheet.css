@@ -32,12 +32,39 @@ header{
     font-size: 20px;
 }
 
+.header-h.show{
+    padding: 10px 0 0 17px;
+}
+
 .ul{
     display: none;
+
 }
 
 .ul.show {
     display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.671);
+    height: 40px;
+    margin-top: 10px;
+    animation: fade linear 0.5s;
+}
+@keyframes fade {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+li{
+    padding:10px 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid;
+    margin: 3px 10px 0px;
 }
 
 /* main */
