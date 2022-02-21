@@ -11,7 +11,7 @@ header{
     background-color: rgba(0, 128, 0, 0.836);
     height: 379px;
 }
-.hamburgermenu{
+.menu{
     border: 0;
     background-color: transparent;
     padding:33px 0 0 28px;
@@ -26,4 +26,12 @@ header{
 .header-p{
     padding-left: 17px;
     font-size: 20px;
+}
+
+.ul{
+    display: none;
+}
+
+.ul.show {
+    display: flex;
 }
