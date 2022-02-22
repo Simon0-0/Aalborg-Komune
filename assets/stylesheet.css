@@ -147,7 +147,7 @@ li a{
 }
 
 .weather-bl{
-    background-color: #567061;
+    
     width: 50vw;
     padding-left: 30px;
     display: flex;
@@ -157,17 +157,17 @@ li a{
 
 .weather-h7{
     font-size: 20px;
-    color: #FFE981;
+    color:#567061;
 }
 
 .weather-h8{
     font-size: 20px;
     padding-top: 32px;
-    color: #FFE981;
+    color: #567061;
 }
 
 .weather-br{
-    background-color:#FFE981;
+    
     width: 50vw;
     display: flex;
     flex-direction: column;
