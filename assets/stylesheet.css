@@ -70,10 +70,10 @@ li a{
 /* main */
 
 /* weather */
-.weather{
+.wrapper{
     display: flex;
 }
-.weather, .weather-l, .weather-r{
+.wrapper, .weather-l, .weather-r .weather-bl, .weather-br{
     height: 366px;
 }
 
@@ -119,7 +119,7 @@ li a{
     width: 50vw;
     display: flex;
 }
-.wrapper{
+.wrapper-in{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -144,6 +144,47 @@ li a{
     height: 103px;
     fill: #567061;
     margin: 28px 0 23px 0;
+}
+
+.weather-bl{
+    background-color: #567061;
+    width: 50vw;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather-h7{
+    font-size: 20px;
+    color: #FFE981;
+}
+
+.weather-h8{
+    font-size: 20px;
+    padding-top: 32px;
+    color: #FFE981;
+}
+
+.weather-br{
+    background-color:#FFE981;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.asd{
+    display: flex;
+}
+
+.ig{
+    margin-top: 0;
+}
+
+.ic{
+    margin-top: 16px;
 }
 /* footer */
 footer{
