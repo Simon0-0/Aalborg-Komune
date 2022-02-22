@@ -1,6 +1,7 @@
 /* Global styling */
 *{
     box-sizing: border-box;
+    max-width: 425px;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -68,9 +69,85 @@ li a{
     margin: 3px 10px 0px;
 }
 
-/* main */
+/* That s just pain here */
+.expandtrack1{
+    display: none;
+}
+.expandtrack1.show{
+    display: inline-block;
+}
 
-<<<<<<< Updated upstream
+.expandtrack1.close{
+    display: none;
+}
+.track1{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 17px 7px 13px 39px;
+    background-color: #FFE981;
+
+}
+
+.track1.show{
+    display:none;
+}
+
+.track-h{
+    color:#224430;
+}
+
+.arrow-tr{
+    transform:rotate(90deg);
+    margin-top: 3px;
+}
+
+.header-wrap{
+    height: 189px;
+    background-color: aliceblue;
+    background-image: url(/assets/images/header1bg.jpg);
+}
+
+.content1-t1{
+    height: 357px;
+    background-color: aquamarine;
+}
+
+.content-h1{
+    font-size: 20px;
+    color: #224430;
+    padding: 43px 0 10px 26px;
+}
+
+.content-p1{
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 26px;
+    color: #224430;
+    width: 186px;
+}
+
+.card{
+    display: flex;
+    width: 50vw;
+}
+
+.track1-cl, .track1-cr1{
+    background-color: white;
+}
+
+.track1-cr, .track1-cl1{
+    background-color:#567061;
+}
+
+.card-h{
+    color: #224430;
+}
+
+.content-map1{
+    max-width: 797px;
+}
+
 /* weather */
 .wrapper{
     display: flex;
@@ -188,7 +265,6 @@ li a{
 .ic{
     margin-top: 16px;
 }
-=======
 /* Section Random Walk*/
 .section .walkRandom {
     display: grid;
@@ -243,7 +319,6 @@ input[type="button"] {
 
 
 
->>>>>>> Stashed changes
 /* footer */
 footer{
     height: 380px;
