@@ -8,10 +8,11 @@
 }
 html{
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* header+menu */
 header{
-    background-image: url(/assets/images/bg.jpg);
+    background-image: url(../assets/images/bg.jpg);
     height: 379px;
 }
 
@@ -69,6 +70,7 @@ li a{
 
 /* main */
 
+<<<<<<< Updated upstream
 /* weather */
 .wrapper{
     display: flex;
@@ -186,10 +188,66 @@ li a{
 .ic{
     margin-top: 16px;
 }
+=======
+/* Section Random Walk*/
+.section .walkRandom {
+    display: grid;
+}
+.walkRandom {
+    color: black;
+}
+section > .deciding {
+    padding: 1rem 0 0 1rem;
+    width: 10rem;
+    margin: 0;
+    margin-top: 1rem;
+}
+.deciding > h2 {
+    margin: 0;
+}
+.challenge {
+    float: right;
+    width: 200px;
+    margin-top: -4rem;
+}
+input[type="button"] {
+    margin-top: 5rem;
+    margin-left: 110px;
+    padding: 15px 50px;
+    text-align: center;
+	border: none;
+	background-color: #FFE049;
+	color: #fff;
+	cursor: pointer;
+	width: auto;
+    
+}
+.alignText {
+	padding-left: 160px;
+    margin-bottom: 2rem;
+	width: auto;
+	margin-top: 15px;
+	font-weight: bold;
+	display: block;
+	cursor: default;
+    font-size: 2rem;
+    color: #FFE049;
+}
+.yourwalk {
+    text-align: center;
+}
+.smalltxt {
+    font-size: 0.8rem;
+}
+
+
+
+
+>>>>>>> Stashed changes
 /* footer */
 footer{
     height: 380px;
-    background-image: url(/assets/images/footerbg.png);
+    background-image: url(../assets/images/footerbg.png);
 }
 
 .footer-h{
